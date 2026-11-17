@@ -4,6 +4,11 @@
 
 AI에게 계획서를 바로 맡기면 양식 칸은 채워지지만 전략은 비어 있기 쉽습니다. 이 스킬은 빈칸을 채우기 전에 **제안 전략을 먼저 설계**하게 합니다. 핵심 키워드 3개를 정하고, 그 키워드가 배경·필요성·개발내용·사업화를 끝까지 관통하게 하며, 모든 주장에 입증 방안을 붙입니다.
 
+## 바로 받기
+
+- **스킬 파일:** [govt-proposal.zip 내려받기](https://github.com/southiota/govt-proposal-skill/releases/latest/download/govt-proposal.zip)를 받아, 압축을 풀지 말고 그대로 Claude 설정 → 사용자 지정 → 스킬 → 추가 → 스킬 업로드에 올립니다.
+- **교재:** [사업계획서실무교재.html](사업계획서실무교재.html)을 받아 브라우저로 엽니다. 스킬이 낸 `06_최종.md`를 넣어 봅니다.
+
 ## 무엇을 하나요
 
 | 단계 | 하는 일 | 결과 파일 |
@@ -32,7 +37,7 @@ AI에게 계획서를 바로 맡기면 양식 칸은 채워지지만 전략은 �
 
 `govt-proposal/` 폴더 하나가 스킬입니다.
 
-- **Claude 앱(claude.ai)**: `govt-proposal/` 폴더를 zip으로 묶어 설정의 스킬 메뉴에서 업로드합니다.
+- **Claude 앱(claude.ai)**: [릴리스](https://github.com/southiota/govt-proposal-skill/releases/latest)의 `govt-proposal.zip`을 설정의 스킬 메뉴에서 업로드합니다. 폴더를 직접 묶어도 됩니다.
 - **Claude Code**: `govt-proposal/` 폴더를 `~/.claude/skills/` 아래에 복사합니다.
 
 설치한 뒤 "사업계획서", "공고문", "심사표", "TIPS", "예비창업패키지" 같은 말을 꺼내면 스킬이 불려 옵니다.
